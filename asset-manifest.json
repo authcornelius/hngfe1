@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/hngfe1/static/css/main.073c9b0a.css",
-    "main.js": "/hngfe1/static/js/main.baf40026.js",
+    "main.css": "/hngfe1/static/css/main.b8fbaeb4.css",
+    "main.js": "/hngfe1/static/js/main.ea0ce6aa.js",
     "static/js/787.1040447b.chunk.js": "/hngfe1/static/js/787.1040447b.chunk.js",
+    "static/media/I4G-Logo-Color-Cropped.png": "/hngfe1/static/media/I4G-Logo-Color-Cropped.8cde01edc439e1ee599b.png",
+    "static/media/share-png-file-share-icon-free-download-1156313309811bbndeiii.png": "/hngfe1/static/media/share-png-file-share-icon-free-download-1156313309811bbndeiii.4e816940123bb952ef5b.png",
+    "static/media/IMG-20210709-WA0045.jpg": "/hngfe1/static/media/IMG-20210709-WA0045.ed05b688ee8f1c1c66c2.jpg",
+    "static/media/png": "/hngfe1/static/media/5cb480cd5f1b6d3fbadece79.0c70ae08030483b5c6ff.png",
     "index.html": "/hngfe1/index.html",
-    "main.073c9b0a.css.map": "/hngfe1/static/css/main.073c9b0a.css.map",
-    "main.baf40026.js.map": "/hngfe1/static/js/main.baf40026.js.map",
+    "main.b8fbaeb4.css.map": "/hngfe1/static/css/main.b8fbaeb4.css.map",
+    "main.ea0ce6aa.js.map": "/hngfe1/static/js/main.ea0ce6aa.js.map",
     "787.1040447b.chunk.js.map": "/hngfe1/static/js/787.1040447b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.baf40026.js"
+    "static/css/main.b8fbaeb4.css",
+    "static/js/main.ea0ce6aa.js"
   ]
 }
