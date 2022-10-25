@@ -3,10 +3,11 @@ import { useState } from 'react'
 import "./App.css"
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Slack from './images/5cb480cd5f1b6d3fbadece79.png'
+import HNG from './images/Vector.png'
 import I4G from './images/I4G-Logo-Color-Cropped.png'
 import UserImg from './images/IMG-20210709-WA0045.jpg'
 import Github from '././images/25231.png'
-import Share from '././images/share-png-file-share-icon-free-download-1156313309811bbndeiii.png'
+import Share from '././images/IconArrow.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCamera, faEllipsisV } from '@fortawesome/free-solid-svg-icons'
 
@@ -30,7 +31,6 @@ function Home() {
               <div className='d-flex mb-3'>
                 <div className='mx-auto'>
                   <img src={UserImg} alt="User DP" className='w-28 h-28 rounded-full' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}/>
-
                   
                   {isHovering && (
                     <div className='absolute top-4 h-28 w-28 cameraSpace text-center justify-center align-middle bg-[#0000009d] rounded-full'>
@@ -40,15 +40,15 @@ function Home() {
                     </div>
                   )}
                 </div>
-                <div className='border-2 border-dotted rounded-full w-8 h-8 relative'>
-                  <img src={Share} className="w-5 h-5 d-md-none rounded-full justify-center text-center" alt='Arrow' />
-                  <div className='d-none d-md-block mt-0.5'>
+                <div className='border-2 border-dotted rounded-full w-10 h-10 relative'>
+                  <img src={Share} className="w-4 h-4 d-md-none m-2.5 justify-center text-center" alt='Arrow' />
+                  <div className='d-none d-md-block mt-1.5'>
                     <FontAwesomeIcon icon={faEllipsisV} alt='Share'/>
                   </div>
                 </div>
               </div>
                 
-                <h3>Annette Black</h3>
+              <h3>Annette Black</h3>
             </div>
 
             <div>
@@ -70,7 +70,7 @@ function Home() {
       <footer className='container d-md-block d-none'>
         <div className='d-flex text-center border-t py-3'>
             <div className='col-2'>
-                <img src={I4G} alt="I4G" className='w-44'/>
+                <img src={HNG} alt="I4G" className='w-44'/>
             </div>
 
             <div className='col-8'>
