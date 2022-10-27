@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hngfe1/static/css/main.9fdcd0c3.css",
-    "main.js": "/hngfe1/static/js/main.77a1cf30.js",
+    "main.css": "/hngfe1/static/css/main.b830feb3.css",
+    "main.js": "/hngfe1/static/js/main.d7718722.js",
     "static/js/787.1040447b.chunk.js": "/hngfe1/static/js/787.1040447b.chunk.js",
     "static/media/I4G-Logo-Color-Cropped.png": "/hngfe1/static/media/I4G-Logo-Color-Cropped.8cde01edc439e1ee599b.png",
-    "static/media/IMG-20210709-WA0045.jpg": "/hngfe1/static/media/IMG-20210709-WA0045.ed05b688ee8f1c1c66c2.jpg",
     "static/media/png": "/hngfe1/static/media/5cb480cd5f1b6d3fbadece79.0c70ae08030483b5c6ff.png",
+    "static/media/Device=Web, State=Default.png": "/hngfe1/static/media/Device=Web, State=Default.c094247968eaa104cabc.png",
     "index.html": "/hngfe1/index.html",
-    "main.9fdcd0c3.css.map": "/hngfe1/static/css/main.9fdcd0c3.css.map",
-    "main.77a1cf30.js.map": "/hngfe1/static/js/main.77a1cf30.js.map",
+    "main.b830feb3.css.map": "/hngfe1/static/css/main.b830feb3.css.map",
+    "main.d7718722.js.map": "/hngfe1/static/js/main.d7718722.js.map",
     "787.1040447b.chunk.js.map": "/hngfe1/static/js/787.1040447b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9fdcd0c3.css",
-    "static/js/main.77a1cf30.js"
+    "static/css/main.b830feb3.css",
+    "static/js/main.d7718722.js"
   ]
 }
