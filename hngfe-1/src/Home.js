@@ -57,27 +57,27 @@ function Home() {
               </div>
 
               <div>
-                <a target="_blank" href='https://google.com' rel="noreferrer" >
+                <a target="_blank" href='https://google.com' rel="noreferrer noopener" >
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16' id='Twitter'>Twitter Link</button>
                 </a>
 
-                <a target="_blank" href='https://training.zuri.team/' rel="noreferrer" id='btn__zuri'>
+                <a target="_blank" href='https://training.zuri.team/' rel="noreferrer noopener" id='btn__zuri'>
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16'>Zuri Team</button>
                 </a>
 
-                <a target="_blank" href='http://books.zuri.team' rel="noreferrer" id='books' >
+                <a target="_blank" href='http://books.zuri.team' rel="noreferrer noopener" id='books' >
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16'>Zuri Books</button>
                 </a>
 
-                <a target="_blank" href='https://books.zuri.team/python-for-beginners?ref_id=<Cornelius>' rel="noreferrer" id='book__python' >
+                <a target="_blank" href='https://books.zuri.team/python-for-beginners?ref_id=<Cornelius>' rel="noreferrer noopener" id='book__python' >
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16'>Python Books</button>
                 </a>  
 
-                <a target="_blank" href='https://background.zuri.team' rel="noreferrer" id='pitch' >
+                <a target="_blank" href='https://background.zuri.team' rel="noreferrer noopener" id='pitch' >
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16'>Background Check for Coders</button>
                 </a>  
 
-                <a target="_blank" href='https://books.zuri.team/design-rules' rel="noreferrer" id='book__design' >
+                <a target="_blank" href='https://books.zuri.team/design-rules' rel="noreferrer noopener" id='book__design' >
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16'>Design Books</button>
                 </a>  
               </div>
