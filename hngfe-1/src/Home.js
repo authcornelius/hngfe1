@@ -3,7 +3,7 @@ import { useState } from 'react'
 import "./App.css"
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Slack from './images/5cb480cd5f1b6d3fbadece79.png'
-import HNG from './images/Vector.png'
+import HNG from './images/download.png'
 import I4G from './images/I4G-Logo-Color-Cropped.png'
 import UserImg from './images/Device=Web, State=Default.png'
 import Github from '././images/25231.png'
@@ -52,37 +52,36 @@ function Home() {
                 </div>
                   
                 <div className="my-3">
-                  <h3 className=' font-extrabold'>Annette Black</h3>
+                  <h3 className='font-extrabold'>Annette Black</h3>
                 </div>
               </div>
 
               <div>
-                <a target="_blank" href='https://google.com' rel="noreferrer noopener" >
-                  <button className='col-12 rounded-md btn-secondary my-2.5 h-16' id='Twitter'>Twitter Link</button>
-                </a>
 
-                <a target="_blank" href='https://training.zuri.team/' rel="noreferrer noopener" id='btn__zuri'>
+                <button className='col-12 rounded-md btn-secondary my-2.5 h-16' id='Twitter'>Twitter Link</button>
+
+                <a target="_blank" href='https://training.zuri.team/' rel="noreferrer noopener" id='btn__zuri' title=''>
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16'>Zuri Team</button>
                 </a>
 
-                <a target="_blank" href='http://books.zuri.team' rel="noreferrer noopener" id='books' >
+                <a target="_blank" href='http://books.zuri.team' rel="noreferrer noopener" id='books' title='' >
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16'>Zuri Books</button>
                 </a>
 
-                <a target="_blank" href='https://books.zuri.team/python-for-beginners?ref_id=<Cornelius>' rel="noreferrer noopener" id='book__python' >
+                <a target="_blank" href='https://books.zuri.team/python-for-beginners?ref_id=<Cornelius>' rel="noreferrer noopener" id='book__python' title='' >
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16'>Python Books</button>
                 </a>  
 
-                <a target="_blank" href='https://background.zuri.team' rel="noreferrer noopener" id='pitch' >
+                <a target="_blank" href='https://background.zuri.team' rel="noreferrer noopener" id='pitch' title='' >
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16'>Background Check for Coders</button>
                 </a>  
 
-                <a target="_blank" href='https://books.zuri.team/design-rules' rel="noreferrer noopener" id='book__design' >
-                  <button className='col-12 rounded-md btn-secondary my-2.5 h-16'>Design Books</button>
+                <a target="_blank" href='https://books.zuri.team/design-rules' rel="noreferrer noopener" id='book__design' title='' >
+                  <button className='col-12 rounded-md btn-secondary my-2.5 h-16 font-extrabold'>Design Books</button>
                 </a>  
               </div>
 
-              <div className='d-flex col-12 justify-center my-4'>
+              <div className='d-flex col-12 justify-center my-10'>
                   <img src={Slack} alt="Slack" className='w-5 mr-5' id='slack'/>
                   <img src={Github} alt="Slack" className='w-5 mr-5'/>
               </div>
@@ -90,16 +89,16 @@ function Home() {
         </div>
 
         <footer className='container'>
-          <div className='row border-t py-4'>
-              <div className='col-sm-12 col-md-2'>
+          <div className='row border-t py-3'>
+              <div className='col-sm-12 col-md-2 py-2'>
                   <img src={HNG} alt="I4G" className='w-44'/>
               </div>
 
-              <div className='col-sm-12 col-md-8'>
+              <div className='col-sm-12 col-md-8 py-2'>
                   <p className='text-gray-500 text-md-center leading-4'>HNG Internship 9 Frontend Task</p>
               </div>
 
-              <div className='text-right col-sm-12 col-md-2'>
+              <div className='text-right col-sm-12 col-md-2 py-2'>
                   <img src={I4G} alt="I4G" className=' w-40'/>
               </div>
           </div>
