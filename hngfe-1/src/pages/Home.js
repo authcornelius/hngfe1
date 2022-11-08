@@ -83,7 +83,7 @@ function Home() {
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16 font-extrabold'>Design Books</button>
                 </a> 
 
-                <Link to="/contact" title='' >
+                <Link to="/contact" title='' id="contact">
                   <button className='col-12 rounded-md btn-secondary my-2.5 h-16 font-extrabold'>Contact Me</button>
                 </Link>
 

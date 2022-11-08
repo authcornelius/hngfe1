@@ -9,11 +9,11 @@ function Contact() {
     const [ email, setEmail ] = useState('')
     const [ message, setMessage ] = useState('')
 
-
+    
   return (
     <div>
-      <form className=''>
-        <div className='container my-5'>
+      <form >
+        <div className='container my-4'>
             <div className='col-lg-8 offset-lg-2'>
                 <h1>Contact Me</h1>
                 <p>Hi there, contact me to ask me about anything you have in mind</p>
@@ -61,21 +61,22 @@ function Contact() {
                             value={message} 
                             placeholder="Send me a message and I'll reply you as soon as possible..." 
                             className='col-12 border rounded-md h-32 p-2' 
-                            type="text" 
-                            id='message'
+                            type="text"
+                            id='message' required
                             onChange={e => setMessage(e.target.value)}
+                            
                         ></textarea>
 
-                        <p className=' text-red-500'>Something went wrong</p>
+                        <p className=' text-red-500'>{}</p>
                     </label>
 
                     <div className='d-flex my-2'>
-                        <input type="checkbox" className='absolute mt-1 w-4 h-4 rounded--md'/>
+                        <input type="checkbox" className='absolute mt-1 w-4 h-4 rounded--md' />
                         <p className='ml-6'>You agree to provide your data to Cornelius Oaikhienan who may contact you.</p>
                     </div>
 
                     <div className='col-12 my-2'>
-                        <button className='btn btn-primary col-12' id='btn__submit'>Send message</button>
+                        <button type='submit' className='btn btn-primary col-12' id='btn__submit'>Send message</button>
                     </div>
 
                 </div>
